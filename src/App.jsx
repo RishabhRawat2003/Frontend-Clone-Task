@@ -1,10 +1,15 @@
 import { useState } from 'react'
+import Header from './Components/Header'
+import Homepage from './Components/Homepage'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-xl text-red-600'>Hello World</h1>
+      <div className='flex flex-col w-full h-auto'>
+        <Header/>
+        <Homepage/>
+      </div>
     </>
   )
 }

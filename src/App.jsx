@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className='flex flex-col w-full h-auto'>
+      <div className='flex flex-col w-full h-auto relative'>
         <Header/>
         <Homepage/>
       </div>
